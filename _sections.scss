@@ -1,0 +1,16 @@
+.hero {
+  &-section {
+    padding: 9.6rem;
+    height: 60vh;
+    background-image: url("/images/bg-header-desktop.png");
+    background-size: cover;
+  }
+  &-logo {
+    margin-bottom: 4rem;
+  }
+  &-btns-block {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+}

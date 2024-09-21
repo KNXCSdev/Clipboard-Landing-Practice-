@@ -1,0 +1,14 @@
+:root {
+  --cyan: hsl(171, 66%, 44%);
+  --lightblue: hsl(233, 100%, 69%);
+  --darkgrayblue: hsl(210, 10%, 33%);
+  --grayblue: hsl(201, 11%, 66%);
+}
+.primary-heading {
+  font-size: 3.8rem;
+  margin-bottom: 2.4rem;
+}
+.description {
+  color: var(--grayblue);
+  margin-bottom: 3.6rem;
+}
