@@ -14,7 +14,7 @@
       rel="stylesheet"
     />
     <title>Frontend Mentor | Clipboard landing page</title>
-
+    <script src="main.js" defer></script>
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
@@ -177,7 +177,7 @@
         </div>
         <div class="footer-list-block">
           <ul class="footer-list">
-            <li class="footer-list-item"><a href="#">Install Guide</a></li>
+            <li class="footer-list-item"><a href="#block">Install Guide</a></li>
             <li>&nbsp;</li>
           </ul>
         </div>
@@ -188,5 +188,21 @@
         </div>
       </div>
     </footer>
+    <div class="hidden" id="block">
+      <div class="container text-align">
+        <img src="images/logo.svg" alt="Company Logo" class="hero-logo" />
+        <h1 class="primary-heading">A history of everything you copy</h1>
+        <p class="description">
+          Clipboard allows you to track and organize everything you copy. Instantly access your
+          clipboard on all your devices.
+        </p>
+        <button class="close-modal">x</button>
+        <div class="hero-btns-block">
+          <button class="btn btn-left">Download for iOS</button>
+          <button class="btn btn-right">Download for Mac</button>
+        </div>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
   </body>
 </html>
