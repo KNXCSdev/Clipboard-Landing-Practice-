@@ -42,11 +42,6 @@ For the social icons, you can use the SVGs provided or a font icon library. Some
 
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
 
-Access Clipboard anywhere
-
-Whether you’re on the go, or at your computer, you can access all your Clipboard
-snippets in a few simple clicks.
-
 Supercharge your workflow
 
 We’ve got the tools to boost your productivity.
