@@ -47,3 +47,19 @@
     }
   }
 }
+
+.section-access {
+  padding: 9.6rem 0;
+}
+.access {
+  &-block {
+    margin-bottom: 8.6rem;
+  }
+  &-img {
+    text-align: center;
+    img {
+      width: 42%;
+      display: inline-block;
+    }
+  }
+}
