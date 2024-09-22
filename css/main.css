@@ -101,6 +101,36 @@ body {
   display: inline-block;
 }
 
+.section-supercharge {
+  padding: 1rem 0;
+}
+
+.supercharge {
+  display: flex;
+  align-items: center;
+  max-width: 150rem;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+.supercharge-img {
+  margin-bottom: 3rem;
+}
+.supercharge-img img {
+  width: 4.6rem;
+  height: 4rem;
+}
+.supercharge-description {
+  width: 80%;
+}
+.supercharge-block {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -157,7 +187,7 @@ body {
 }
 
 .secondary-heading {
-  font-size: 3.2rem;
+  font-size: 3.4rem;
   color: var(--darkgrayblue);
   margin-bottom: 2.4rem;
 }

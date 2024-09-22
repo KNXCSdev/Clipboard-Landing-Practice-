@@ -42,22 +42,6 @@ For the social icons, you can use the SVGs provided or a font icon library. Some
 
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
 
-Supercharge your workflow
-
-We’ve got the tools to boost your productivity.
-
-Create blacklists
-
-Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
-
-Plain text snippets
-
-Remove unwanted formatting from copied text for a consistent look.
-
-Sneak preview
-
-Quick preview of all snippets on your Clipboard for easy access.
-
 Clipboard for iOS and Mac OS
 
 Available for free on the App Store. Download for Mac or iOS, sync with iCloud
