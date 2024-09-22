@@ -69,8 +69,6 @@
 }
 .supercharge {
   display: flex;
-
-  align-items: center;
   max-width: 150rem;
   margin: 0 auto;
   margin-top: 8rem;
@@ -92,6 +90,7 @@
     justify-content: center;
     align-items: center;
     width: 33%;
+    height: 100%;
   }
 }
 
@@ -107,4 +106,42 @@
 
 .section-clipboard {
   padding: 4rem 0;
+  padding-bottom: 12.8rem;
+}
+
+.footer {
+  padding: 4rem;
+  background-color: var(--gray);
+
+  &-logo {
+    img {
+      height: 5rem;
+    }
+  }
+  &-list-block {
+  }
+  &-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    &-item {
+      a:link,
+      a:visited {
+        text-decoration: none;
+        color: var(--darkgrayblue);
+        transition: all 0.3s;
+      }
+      a:hover,
+      a:active {
+        color: var(--cyan);
+      }
+    }
+  }
+
+  &-media {
+    display: flex;
+    gap: 3rem;
+    justify-content: end;
+  }
 }
