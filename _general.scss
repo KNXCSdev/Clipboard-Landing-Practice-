@@ -26,12 +26,15 @@ body {
   color: white;
   display: inline-block;
   cursor: pointer;
+
   &-left {
     background-color: var(--cyan);
     box-shadow: 0 2px 5px var(--cyan);
+    border-bottom: 2px solid var(--darkcyan);
   }
   &-right {
     background-color: var(--lightblue);
     box-shadow: 0 2px 5px var(--lightblue);
+    border-bottom: 2px solid var(--darkblue);
   }
 }
