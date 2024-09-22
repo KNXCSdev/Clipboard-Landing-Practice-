@@ -34,10 +34,12 @@ body {
 .btn-left {
   background-color: var(--cyan);
   box-shadow: 0 2px 5px var(--cyan);
+  border-bottom: 2px solid var(--darkcyan);
 }
 .btn-right {
   background-color: var(--lightblue);
   box-shadow: 0 2px 5px var(--lightblue);
+  border-bottom: 2px solid var(--darkblue);
 }
 
 .hero-section {
@@ -131,6 +133,21 @@ body {
   width: 33%;
 }
 
+.section-featured {
+  padding: 9.6rem 0;
+}
+
+.featured {
+  max-width: 140rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-clipboard {
+  padding: 4rem 0;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -167,15 +184,19 @@ body {
 .btn-left {
   background-color: var(--cyan);
   box-shadow: 0 2px 5px var(--cyan);
+  border-bottom: 2px solid var(--darkcyan);
 }
 .btn-right {
   background-color: var(--lightblue);
   box-shadow: 0 2px 5px var(--lightblue);
+  border-bottom: 2px solid var(--darkblue);
 }
 
 :root {
   --cyan: hsl(171, 66%, 44%);
+  --darkcyan: hsl(171, 60%, 31%);
   --lightblue: hsl(233, 100%, 69%);
+  --darkblue: hsl(233, 54%, 55%);
   --darkgrayblue: hsl(210, 10%, 33%);
   --grayblue: hsl(201, 11%, 66%);
 }
