@@ -63,3 +63,34 @@
     }
   }
 }
+
+.section-supercharge {
+  padding: 1rem 0;
+}
+.supercharge {
+  display: flex;
+
+  align-items: center;
+  max-width: 150rem;
+  margin: 0 auto;
+  margin-top: 8rem;
+  &-img {
+    margin-bottom: 3rem;
+    img {
+      width: 4.6rem;
+      height: 4rem;
+    }
+  }
+  &-description {
+    width: 80%;
+  }
+
+  &-block {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+  }
+}
